@@ -1,8 +1,8 @@
-const express = require('express');
 const path = require('path');
-const hbs = require('hbs');
+const express = require('express');
 const app = express();
-const port = process.env.PORT || 8000;
+const hbs = require('hbs');
+const port = process.env.PORT || 8080;
 
 
 // http://localhost:8000/
@@ -47,6 +47,6 @@ app.get("*", (req, res) => {
 
 
 app.listen(port, () => {
-    console.log('listening to port at ${port}')
+    console.log('listening to port at ${port}');
 
 })
