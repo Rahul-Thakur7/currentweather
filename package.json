@@ -6,6 +6,7 @@
     "scripts": {
         "start": "node src/app.js",
         "build": "webpack"
+
     },
     "author": "Rahul thakur",
     "license": "ISC",
@@ -13,5 +14,6 @@
         "express": "^4.17.1",
         "hbs": "^4.1.1",
         "nodejs": "^0.0.0"
+
     }
 }
