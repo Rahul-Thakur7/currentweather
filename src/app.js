@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const hbs = require('hbs');
+const hostname = '0.0.0.0';
 const port = process.env.PORT || 8080;
 
 
@@ -47,6 +48,6 @@ app.get("*", (req, res) => {
 
 
 app.listen(port, () => {
-    console.log('listening to port at ${port}');
+    console.log('listening to port at http://${hostname}:${port}/');
 
 })
